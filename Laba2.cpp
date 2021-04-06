@@ -4,14 +4,14 @@
 using namespace std;
 
 int main() {
-Text v("Popka1232");
-Text v2("Popka1232");
+Text v("Stroka1");
+Text v2("Stroka2");
 if (v == v2)
 {
-    cout << "Popka" << endl;
+    cout << "Ravni" << endl;
 }
 else
 { 
-    cout << "NePopka" << endl;
+    cout << "NeRavni" << endl;
 }
 }
